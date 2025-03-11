@@ -3,7 +3,7 @@ import {TestKeys, TestWithSite, TSort} from "../shared/types.ts";
 export type TSearchProps = {
     search: string
     setSearch: (search: string) => void
-    total: number | null
+    total?: number
 }
 
 export type TTableProps = {
